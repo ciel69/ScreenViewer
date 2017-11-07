@@ -1,5 +1,5 @@
 
-Будет удалено .gitignore
-Будет удалено .idea*
-Будет удалено dist/
+.gitignore
+.idea/
+dist/
 /node_modules
