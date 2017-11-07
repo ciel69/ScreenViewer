@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2dccb14c-afad-43aa-b102-5d1691b62cd2" name="Default" comment="" />
+    <list default="true" id="2dccb14c-afad-43aa-b102-5d1691b62cd2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,19 +33,39 @@
       <file leaf-file-name="screenViewer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/screenViewer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10">
+            <state relative-caret-position="-5">
               <caret line="137" column="6" lean-forward="false" selection-start-line="137" selection-start-column="6" selection-end-line="137" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package-lock.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19875">
-              <caret line="1405" column="36" lean-forward="false" selection-start-line="1405" selection-start-column="36" selection-end-line="1405" selection-end-column="36" />
+            <state relative-caret-position="255">
+              <caret line="95" column="26" lean-forward="true" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="248">
+                <caret line="83" column="3" lean-forward="false" selection-start-line="83" selection-start-column="3" selection-end-line="83" selection-end-column="3" />
+                <folding>
+                  <marker date="1510041817842" expanded="true" signature="795:840" ph="/** Screen types map ...*/" />
+                  <marker date="1510041817842" expanded="true" signature="853:1063" ph="{&quot;default&quot;: 'desktopFull'...}" />
+                  <marker date="1510041817842" expanded="true" signature="891:1009" ph="{&quot;768&quot;: 'mobile'...}" />
+                  <marker date="1510041817842" expanded="true" signature="1578:1711" ph="{&quot;default&quot;: 'desktop'...}" />
+                  <marker date="1510041817842" expanded="true" signature="1610:1666" ph="{&quot;320&quot;: 'mobile'...}" />
+                  <marker date="1510041817842" expanded="true" signature="1854:1998" ph="[...]" />
+                </folding>
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -65,6 +88,7 @@
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/screenViewer.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -149,12 +173,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510039526344</updated>
-      <workItem from="1510039527964" duration="1209000" />
+      <workItem from="1510039527964" duration="2292000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1209000" />
+    <option name="totallyTimeSpent" value="2292000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1366" height="746" extended-state="6" />
@@ -207,7 +231,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/screenViewer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
+        <state relative-caret-position="-5">
           <caret line="137" column="6" lean-forward="false" selection-start-line="137" selection-start-column="6" selection-end-line="137" selection-end-column="6" />
           <folding />
         </state>
@@ -215,9 +239,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19875">
-          <caret line="1405" column="36" lean-forward="false" selection-start-line="1405" selection-start-column="36" selection-end-line="1405" selection-end-column="36" />
+        <state relative-caret-position="255">
+          <caret line="95" column="26" lean-forward="true" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="248">
+            <caret line="83" column="3" lean-forward="false" selection-start-line="83" selection-start-column="3" selection-end-line="83" selection-end-column="3" />
+            <folding>
+              <marker date="1510041817842" expanded="true" signature="795:840" ph="/** Screen types map ...*/" />
+              <marker date="1510041817842" expanded="true" signature="853:1063" ph="{&quot;default&quot;: 'desktopFull'...}" />
+              <marker date="1510041817842" expanded="true" signature="891:1009" ph="{&quot;768&quot;: 'mobile'...}" />
+              <marker date="1510041817842" expanded="true" signature="1578:1711" ph="{&quot;default&quot;: 'desktop'...}" />
+              <marker date="1510041817842" expanded="true" signature="1610:1666" ph="{&quot;320&quot;: 'mobile'...}" />
+              <marker date="1510041817842" expanded="true" signature="1854:1998" ph="[...]" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
