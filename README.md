@@ -1,3 +1,4 @@
+The basis [library](https://github.com/RGRU/ScreenViewer)
 
 # RxJS ScreenViewer
 Module for definition screen type by RXJS. There is Flow in code.
