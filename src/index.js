@@ -8,9 +8,9 @@ export default class ScreenViewer {
         }
 
         const targetEventList = [
-            Observable.fromEvent(window, 'load').map(() => window.innerWidth),
+            Observable.fromEvent(window, 'load').map(() => document.documentElement.clientWidth),
             Observable.fromEvent(document, 'DOMContentLoaded').map(event => event.target.innerWidth),
-            Observable.fromEvent(window, 'resize').map(() => window.innerWidth),
+            Observable.fromEvent(window, 'resize').map(() => document.documentElement.clientWidth),
         ];
 
         if (typeof event !== 'undefined' && event !== null) {
