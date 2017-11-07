@@ -61,7 +61,7 @@ Set module (it use RxJS, that why module shold be accessible in environment).
 index.js:
 
 ```js
-import ScreenViewer from 'screenv-iewer';
+import ScreenViewer from 'screen-viewer';
 import { Observable } from 'rxjs/Rx';
     
 const screen$ = new ScreenViewer(
