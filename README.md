@@ -34,19 +34,7 @@ Module works by Rx streams. In our case it works with resizes of screen. Which i
 In common cases uses free streams by three events:
     - Full page loaded (onload)
     - Full document loaded (DOMContentLoaded)
-    - Resize screen (onresize)
-    
-
-##Install
-    
-To install using npm or yarn
-```npm
-npm install screenviewer --save
-    
-yarn add screenviewer
-```
-
-##Default tracked events
+    - Resize screen (onresize).
     
 Tracked default events used inside the library
 ```js
@@ -55,6 +43,15 @@ Tracked default events used inside the library
             Observable.fromEvent(document, 'DOMContentLoaded').map(event => event.target.innerWidth),
             Observable.fromEvent(window, 'resize').map(() => window.innerWidth),
         ]
+```
+
+##Install
+    
+To install using npm or yarn
+```npm
+npm install screenviewer --save
+    
+yarn add screenviewer
 ```
 
 
