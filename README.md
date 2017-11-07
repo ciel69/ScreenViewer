@@ -45,7 +45,7 @@ Tracked default events used inside the library
         ]
 ```
 
-##Install
+## Install
     
 To install using npm or yarn
 ```npm
