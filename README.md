@@ -38,12 +38,15 @@ In common cases uses free streams by three events:
     
 
 ##Install
-```
+To install using npm or yarn
+```npm
 npm install screenviewer --save
+    
+yarn add screenviewer
 ```
 
 ##Default tracked events
-
+Tracked default events used inside the library
 ```js
         [
             Observable.fromEvent(window, 'load').map(() => window.innerWidth),
