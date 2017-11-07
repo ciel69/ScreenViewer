@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/RGRU/ScreenViewer.svg?branch=master)](https://travis-ci.org/RGRU/ScreenViewer)
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
 
 # RxJS ScreenViewer
 Module for definition screen type by RXJS. There is Flow in code.
@@ -37,6 +35,17 @@ In common cases uses free streams by three events:
     - Full page loaded (onload)
     - Full document loaded (DOMContentLoaded)
     - Resize screen (onresize)
+    
+##Default tracked events
+
+```js
+        [
+            Observable.fromEvent(window, 'load').map(() => window.innerWidth),
+            Observable.fromEvent(document, 'DOMContentLoaded').map(event => event.target.innerWidth),
+            Observable.fromEvent(window, 'resize').map(() => window.innerWidth),
+        ]
+```
+
 
 ## Usage
 Set module (it use RxJS, that why module shold be accessible in environment).
@@ -44,37 +53,24 @@ Set module (it use RxJS, that why module shold be accessible in environment).
 index.js:
 
 ```js
-import screenViewer from './screenViewer';
-```
-
-You can set up types map, if you need it.
-
-```js
-screenViewer.setup({
-
-    // Common types
-    map: {
-        '320': 'mobile',
-        '700': 'tablet'
-    },
-
-    // As default
-    default: 'desktop'
-})
-```
-
-init$ method receive array of streams filtered by size of screen.
-
-```js
+import ScreenViewer from 'screenViewer';
 import { Observable } from 'rxjs/Rx';
+    
+const screen$ = new ScreenViewer(
+      {
+      
+          // Common types
+          map: {
+              '320': 'mobile',
+              '700': 'tablet'
+          },
+      
+          // You can set up types map, if you need it. 
+          default: 'desktop'
+      }, // You can configure the card types, if you need it. If you do not want to put null
+      [Observable.of(stepUrl).map(() => window.innerWidth)] // Add a custom event. If you do not need to specify
+    );
 
-const targetEventList = [
-    Observable.fromEvent(window, 'load').map(() => window.innerWidth),
-    Observable.fromEvent(document, 'DOMContentLoaded').map(event => event.target.innerWidth),
-    Observable.fromEvent(window, 'resize').map(() => window.innerWidth)
-]
-
-const screen$ = screenViewer.init$(targetEventList)
 ```
 
 Now we can subscribe to stream, that will change data in moment when type of screen changed.
