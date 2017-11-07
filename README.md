@@ -36,6 +36,11 @@ In common cases uses free streams by three events:
     - Full document loaded (DOMContentLoaded)
     - Resize screen (onresize)
     
+##Install
+````
+npm install screenviewer --save
+````
+
 ##Default tracked events
 
 ```js
