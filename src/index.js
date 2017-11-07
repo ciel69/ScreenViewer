@@ -1,4 +1,4 @@
-import screenViewer from 'screenViewer';
+import screenViewer from './screenViewer';
 import {Observable} from 'rxjs/Rx';
 
 export default class ScreenViewer {
