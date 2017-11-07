@@ -1,10 +1,10 @@
 {
   "name": "screen-viewer",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src/test.js -d dist --presets es2015"
   },
   "repository": {
     "type": "git",

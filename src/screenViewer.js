@@ -107,7 +107,7 @@ const __init__ = (observableList) => {
         .filter(width => !!width)
         .switchMap(width => {
             return screenMap$
-                .filter(widthOfMap => width < +widthOfMap)
+                .filter(widthOfMap => width <= +widthOfMap)
                 .map(widthOfMap => widthOfMap ? screenMap[widthOfMap] : widthOfMap)
                 .defaultIfEmpty(screenMapDefault)
                 .first()
