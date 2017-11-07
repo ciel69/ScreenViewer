@@ -1,0 +1,27 @@
+{
+  "name": "screenviewer",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/screenViewer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ciel69/ScreenViewer.git"
+  },
+  "author": "ciel69",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ciel69/ScreenViewer/issues"
+  },
+  "homepage": "https://github.com/ciel69/ScreenViewer#readme",
+  "dependencies": {
+    "rxjs": "^5.5.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
