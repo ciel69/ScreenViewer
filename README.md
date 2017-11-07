@@ -10,10 +10,7 @@ Module define some kind of size (in this case it's screen width), that it receiv
 For example, module receive value 940, that corresponds screen type tablet. All corresponds values are shown below. If value is 1300, then it will be desktop.
 
 ```js
-/**
- * Screen types map
- * @type {Object}
- */
+
 screenMap = {
 
     // Everything is less
