@@ -62,8 +62,10 @@ index.js:
 
 ```js
 import ScreenViewer from 'screen-viewer';
-import { Observable } from 'rxjs/Rx';
-    
+import Rx, { Observable } from 'rxjs/Rx';
+
+const customEvent = new Rx.Subject();
+
 const screen$ = new ScreenViewer(
       {
       
@@ -76,7 +78,7 @@ const screen$ = new ScreenViewer(
           // You can set up types map, if you need it. 
           default: 'desktop'
       }, // You can configure the card types, if you need it. If you do not want to put null
-      [Observable.of(stepUrl).map(() => window.innerWidth)] // Add a custom event. If you do not need to specify
+      [Observable.of(customEvent).map(() => window.innerWidth)] // Add a custom event. If you do not need to specify
     );
 
 ```
