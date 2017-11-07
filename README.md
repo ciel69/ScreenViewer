@@ -49,9 +49,9 @@ Tracked default events used inside the library
     
 To install using npm or yarn
 ```npm
-npm install screenviewer --save
+npm install screen-viewer --save
     
-yarn add screenviewer
+yarn add screen-viewer
 ```
 
 
@@ -61,7 +61,7 @@ Set module (it use RxJS, that why module shold be accessible in environment).
 index.js:
 
 ```js
-import ScreenViewer from 'screenViewer';
+import ScreenViewer from 'screenv-iewer';
 import { Observable } from 'rxjs/Rx';
     
 const screen$ = new ScreenViewer(
