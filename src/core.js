@@ -61,11 +61,6 @@ const __setScreenMap__ = (screenMap) => {
  * Method for init module, call for init observer
  *
  * @param {Array} observableList список потоков, обрабатывая которые, нужно проверять ширину экрана
- *                               по-умолчанию, передаем
- *
- *                               observable.on('load').map(() => window.innerWidth)
- *                               observable.on('ready').map(event => event.target.innerWidth)
- *                               observable.on('ready').map(event => event.target.innerWidth)
  *
  * @return {Rx} Поток изменяемой ширины и типов (приходит от совмещения других потоков)
  *              изменяется только тогда, когда меняется значение типа

@@ -1,4 +1,4 @@
-import screenViewer from 'screen-viewer';
+import screenViewer from './core';
 import {Observable} from 'rxjs/Rx';
 
 export default class ScreenSize {
