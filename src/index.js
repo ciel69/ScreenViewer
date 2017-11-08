@@ -1,7 +1,7 @@
-import screenViewer from './screenViewer';
+import screenViewer from 'screen-viewer';
 import {Observable} from 'rxjs/Rx';
 
-export default class ScreenViewer {
+export default class ScreenSize {
     constructor(map, event) {
         if (typeof map !== 'undefined' && map !== null) {
             screenViewer.setup(map);
