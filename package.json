@@ -1,5 +1,5 @@
 {
-  "name": "viewer-screen-size",
+  "name": "viewer-ss",
   "version": "0.0.1",
   "description": "",
   "main": "src/index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ciel69/ScreenViewer.git"
+    "url": "git+https://github.com/ciel69/viewer-screen-size.git"
   },
   "author": "ciel69 <alex453542026@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ciel69/ScreenViewer/issues"
+    "url": "https://github.com/ciel69/viewer-screen-size/issues"
   },
-  "homepage": "https://github.com/ciel69/ScreenViewer#readme",
+  "homepage": "https://github.com/ciel69/viewer-screen-size#readme",
   "dependencies": {
     "rxjs": "^5.5.2"
   },
